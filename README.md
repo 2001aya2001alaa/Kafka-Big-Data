@@ -18,5 +18,6 @@ First, you need to install Kafka and Zookeeper. Here are the steps:
 2. Create a new topic by running the following command: ./bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic topic_1
 
 ## Step 3: Run the Producer and Consumer
-1. Producer: .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic topic_1
-2. Consumer: .\bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic topic_1
+1. Open a new terminal window and navigate to the directory where Kafka is located.
+2. Producer: .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic topic_1
+3. Consumer: .\bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic topic_1
