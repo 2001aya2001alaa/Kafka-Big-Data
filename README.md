@@ -10,8 +10,8 @@ First, you need to install Kafka and Zookeeper. Here are the steps:
      1.2. Download Zookeeper from the Apache Zookeeper website: https://zookeeper.apache.org/.
 2. Extract the files to a directory on your computer.
 3. Open a terminal window and navigate to the directory where Kafka and Zookeeper are located.
-4. Start Zookeeper by running the following command: ./bin/zookeeper-server-start.sh config/zookeeper.properties
-5. Start Kafka by running the following command: ./bin/kafka-server-start.sh config/server.properties
+4. Start Zookeeper by running the following command: zookeeper-server-start.bat config/zookeeper.properties
+5. Start Kafka by running the following command: kafka-server-start.bat config/server.properties
 
 ## Step 2: Create a Kafka Topic
 1. Open a new terminal window and navigate to the directory where Kafka is located.
